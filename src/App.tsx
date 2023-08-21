@@ -19,9 +19,21 @@ function App() {
             </Menu>
             <Box>
                 Hello world!
-                <StyledBtn as={Link} href={"#"}>LinkComponent</StyledBtn>
-                <StyledBtn as={"a"} href={"#"}>Link</StyledBtn>
-                <StyledBtn>Click me</StyledBtn>
+                {/*<StyledBtn as={Link} href={"#"}>LinkComponent</StyledBtn>*/}
+                {/*<StyledBtn as={"a"} href={"#"}>Link</StyledBtn>*/}
+                {/*<input type={"text"}/>*/}
+                {/*<input type={"submit"}/>*/}
+                {/*<input type={"checkbox"}/>*/}
+                {/*<input type={"radio"}/>*/}
+                {/*<input type={"range"}/>*/}
+                {/*<StyledBtn color={"red"} fontSize={"20px"}>Click me</StyledBtn>*/}
+                {/*<StyledBtn color={"green"}>Click me</StyledBtn>*/}
+                {/*<StyledBtn fontSize={"25px"}>Click me</StyledBtn>*/}
+                <StyledBtn btnType={"second"} active>Click me</StyledBtn>
+                <StyledBtn btnType={"first"}>Click me</StyledBtn>
+                <StyledBtn primary>Click me</StyledBtn>
+                <StyledBtn outlined>Click me</StyledBtn>
+
                 <SuperButton>I'm a super btn</SuperButton>
             </Box>
         </div>
